@@ -5,66 +5,72 @@
     </head>
 
     <body>
-        <h1><img src="https://cdn.sonicadigital.com.br/entra21/storage/settings/1/original-691cbe5cd50d1.png" alt="Entra21"></h1> 
-            <ul>
-                <li><a href="html.html">HTML</a></li>
-                <li><a href="css.html">CSS</a></li>
-                <li><a href="js.html">JS</a></li>
-                <li><a href="frontend_backend.html">Frontend X Backend</a></li>
-                <li><a href="contato.html">Contato</a></li>
+        <header>
+            <h1><img src="https://cdn.sonicadigital.com.br/entra21/storage/settings/1/original-691cbe5cd50d1.png" alt="Entra21"></h1> 
+            <nav>
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="js.html">JS</a></li>
+                    <li><a href="frontend_backend.html">Frontend X Backend</a></li>
+                    <li><a href="contato.html">Contato</a></li>
 
-            </ul>
-            
+                </ul>
+            </nav>
+        </header>
+        <main>
         <h2>Contato</h2>
         <p>Entre em contato com nosso time</p>
-        <form action="form.php" method="post" autocomplete="off"></form>
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
-            </div>
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="telefone">
-            </div>
-            <div>
-                <label for="cidade">Cidade</label>
-                <select name="cidade" id="cidade">
-                    <option>Selecione uma cidade</option>
-                    <option value="brusque">Brusque</option>  
-                    <option value="gaspar">Gaspar</option> 
-                    <option value="indaial">Indaial</option>
-                    <option value="itajai">Itajai</option>
-                    <option value="balneario_camburiu">Balneario Camburiu</option>
-                    <option value="rio_do_sul">Rio do Sul</option>
-                    <object data="timbo" type="">Timbó</object>
-                    <option value="blumenau">Blumenau</option>
-                </select>
-            </div>
-            <div>
-                <label for="tipo">Tipo:</label>
-            </div>
-            <div>
-                <input type="radio" name="tipo" id="tipo_aluno" value="a">
-                <label for="tipo_aluno">Aluno</label>
-            </div>
-            <div>
-                <input type="radio" name="tipo" id="tipo_parceiro" value="p">
-                <label for="tipo_parceiro">Parceiro</label>
-            </div>
-            <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" rows="3"></textarea>
-            </div>
-            <div>
-                <input type="checkbox" name="termo_uso" id="termo_uso">
-                <label for="termo_use">Aceito os termos de uso</label>
-            </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
+            <form action="form.php" method="post" autocomplete="off">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" id="telefone">
+                </div>
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <select name="cidade" id="cidade">
+                        <option>Selecione uma cidade</option>
+                        <option value="brusque">Brusque</option>  
+                        <option value="gaspar">Gaspar</option> 
+                        <option value="indaial">Indaial</option>
+                        <option value="itajai">Itajai</option>
+                        <option value="balneario_camburiu">Balneario Camburiu</option>
+                        <option value="rio_do_sul">Rio do Sul</option>
+                        <object data="timbo" type="">Timbó</object>
+                        <option value="blumenau">Blumenau</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="tipo">Tipo:</label>
+                </div>
+                <div>
+                    <input type="radio" name="tipo" id="tipo_aluno" value="a">
+                    <label for="tipo_aluno">Aluno</label>
+                </div>
+                <div>
+                    <input type="radio" name="tipo" id="tipo_parceiro" value="p">
+                    <label for="tipo_parceiro">Parceiro</label>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="3"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="termo_uso" id="termo_uso">
+                    <label for="termo_use">Aceito os termos de uso</label>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
     </body>
 </html>
